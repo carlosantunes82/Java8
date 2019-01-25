@@ -34,7 +34,7 @@ public class ExemplosLivros {
 	    		.sum());
 	    
 	    cursos.stream()
-    	.filter(c -> c.getAlunos() >= 1002)
+    	.filter(c -> c.getAlunos() >= 1002) ///dddd
     	.findAny()
     	.ifPresent(c-> System.out.println(c.getNome()));
 	    
